@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E3A5F; /* Dark Blue */
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #1D8348; /* Green */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #146534; /* Darker Green */
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1D8348;
+    width: 100%;
+    text-align: center;
+}
+
+.main-logo {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
